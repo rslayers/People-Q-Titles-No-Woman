@@ -27,6 +27,7 @@
     { pattern: /\bLatin\s|\sLatin\b/gi, replacement: '' },
     { pattern: /\bLatino\s|\sLatino\b/gi, replacement: '' },
     { pattern: /\bLatina\s|\sLatina\b/gi, replacement: '' },
+    { pattern: /\bAfro\s|\sAfro\b/gi, replacement: '' },
     { pattern: /boy/gi, replacement: 'Kid' }, // Replace "boy" with "Kid"
     
     // New rule: Check for "Albino" and add "With Albinism" after the next word, also remove "Albino"
