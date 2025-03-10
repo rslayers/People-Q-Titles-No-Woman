@@ -31,7 +31,7 @@
     { pattern: /\bWith An Hairstyle\s|\sWith An Hairstyle\b/gi, replacement: '' },
     { pattern: /\bAfro Hairstyle\s|\sAfro Hairstyle\b/gi, replacement: '' },
     { pattern: /\bWith Hairstyle\s|\sWith Hairstyle\b/gi, replacement: '' },
-    { pattern: /boy/gi, replacement: 'Kid' }, // Replace "boy" with "Kid"
+    { pattern: /\bBoy\b/gi, replacement: 'Kid' }, // Replace "Boy" only when standalone
     
     // New rule: Check for "Albino" and add "With Albinism" after the next word, also remove "Albino"
     {
