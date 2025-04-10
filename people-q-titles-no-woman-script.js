@@ -25,6 +25,7 @@
     { pattern: /\bArab\s|\sArab\b/gi, replacement: '' }, // Remove "Arab " (with trailing space or preceding space)
     { pattern: /\bArabic\s|\sArabic\b/gi, replacement: '' }, // Remove "Arabic " (with trailing space or preceding space)
     { pattern: /\bLatin\s|\sLatin\b/gi, replacement: '' },
+    { pattern: /\bObese\s|\sObese\b/gi, replacement: '' },
     { pattern: /\bHispanic\s|\sHispanic\b/gi, replacement: '' },
     { pattern: /\bLatino\s|\sLatino\b/gi, replacement: '' },
     { pattern: /\bLatina\s|\sLatina\b/gi, replacement: '' },
